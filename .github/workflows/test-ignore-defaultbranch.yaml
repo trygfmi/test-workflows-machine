@@ -3,7 +3,7 @@ name: ignore defaultbranch
 on:
   push:
     branches-ignore:
-    - test
+    - master
 
 jobs:
   sayHello:
@@ -12,4 +12,3 @@ jobs:
     steps:
     - name sayhello
       run: echo hello
-      
