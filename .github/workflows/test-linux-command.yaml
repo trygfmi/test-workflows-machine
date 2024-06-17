@@ -5,12 +5,12 @@ on:
 
 jobs:
   build:
-    runs-on ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+
     - name: start linux command
       run:
         echo "start linux command"
