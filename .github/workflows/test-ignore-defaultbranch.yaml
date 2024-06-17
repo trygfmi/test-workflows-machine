@@ -1,0 +1,15 @@
+name: ignore defaultbranch
+
+on:
+  push:
+    branches-ignore:
+    - test
+
+jobs:
+  sayHello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name sayhello
+      run: echo hello
+      
