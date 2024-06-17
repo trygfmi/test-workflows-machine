@@ -10,6 +10,6 @@ jobs:
     steps:
     - name: start linux command
       run:
-        #echo "start linux command"
+        echo "start linux command";
         touch test.txt;
         ls -a;
