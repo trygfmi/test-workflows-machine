@@ -3,13 +3,12 @@ name: ignore defaultbranch
 on:
   push:
     branches-ignore:
-    - test
+    - master
 
 jobs:
   sayHello:
     runs-on: ubuntu-latest
 
     steps:
-    - name sayhello
+    - name: sayhello
       run: echo hello
-      
