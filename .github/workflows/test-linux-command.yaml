@@ -11,5 +11,5 @@ jobs:
     - name: start linux command
       run:
         #echo "start linux command"
-        touch test.txt < "hello"
-        cat test.txt
+        touch test.txt
+        ls
