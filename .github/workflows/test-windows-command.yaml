@@ -1,4 +1,4 @@
-name test-windows-command
+name: test-windows-command
 
 on: workflow-dispatch
 

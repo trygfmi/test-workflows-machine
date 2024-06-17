@@ -1,4 +1,4 @@
-name test-macos-command
+name: test-macos-command
 
 on: workflow-dispatch
 
