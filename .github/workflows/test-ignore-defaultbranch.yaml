@@ -1,4 +1,4 @@
-name: ignore defaultbranch!
+name: ignore defaultbranch
 
 on:
   push:
