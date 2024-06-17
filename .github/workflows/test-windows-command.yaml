@@ -1,0 +1,13 @@
+name test-windows-command
+
+on: workflow-dispatch
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: mkdir and dir
+      run:
+        mkdir testtest;
+        dir;

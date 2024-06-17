@@ -1,0 +1,13 @@
+name test-macos-command
+
+on: workflow-dispatch
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: touch test.txt and ls -a
+      run:
+        touch test.txt;
+        ls -a;
