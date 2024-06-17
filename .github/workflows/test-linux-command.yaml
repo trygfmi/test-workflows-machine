@@ -6,7 +6,7 @@ jobs:
     runs-on "ubuntu-latest"
 
     steps:
-      - name "start linux command"
+      - name: "start linux command"
       run:
         echo "start linux command"
         ls
