@@ -1,0 +1,14 @@
+name: Get Branch Name
+
+on: workflow_dispatch
+
+jobs:
+  get-branch-name:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Get branch name
+      run: echo "Branch name is ${GITHUB_REF#refs/heads/}"
