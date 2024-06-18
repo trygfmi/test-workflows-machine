@@ -1,9 +1,9 @@
-name: Example Workflow
+name: set-filename-to-env.yaml
 
-on: [push]
+on: workflow_dispatch
 
 env:
-  TEST_WORKFLOW_FILENAME: set-filename-to-env.yml
+  TEST_WORKFLOW_FILENAME: set-filename-to-env.yaml
 
 jobs:
   get-filename:
