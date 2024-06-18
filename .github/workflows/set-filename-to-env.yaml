@@ -1,0 +1,14 @@
+name: Example Workflow
+
+on: [push]
+
+env:
+  TEST_WORKFLOW_FILENAME: set-filename-to-env.yml
+
+jobs:
+  get-filename:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Display workflow filename
+      run: echo "Workflow filename is $TEST_WORKFLOW_FILENAME"
