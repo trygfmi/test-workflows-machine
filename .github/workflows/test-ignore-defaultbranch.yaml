@@ -1,4 +1,5 @@
-name: ignore defaultbranch
+#masterブランチ以外にpushがあったら実行する
+name: ignore defaultbranch!
 
 on:
   push:
