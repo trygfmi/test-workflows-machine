@@ -11,4 +11,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Get branch name
-      run: echo "Branch name is ${GITHUB_REF}"
+      run: echo "Branch name is ${GITHUB_REF#refs/heads/}"
